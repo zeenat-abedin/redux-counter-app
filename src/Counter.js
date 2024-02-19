@@ -8,6 +8,7 @@ import './Counter.css';
 export default function Counter() {
     const dispatch = useDispatch(); 
     const counter = useSelector(state => state.counter);
+    
  return (
     <div className="counter_app">
         <h1>Counter Application</h1>
