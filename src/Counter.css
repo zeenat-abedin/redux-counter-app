@@ -12,9 +12,15 @@
 .counter .increment{
     background-color: green;
 }
+.counter .increment:hover{
+    background-color: rgb(2, 50, 2);
+}
 
 .counter .decrement{
     background-color: red;
+}
+.counter .decrement:hover{
+    background-color: rgb(102, 6, 6);
 }
 
 .counter .increment, .counter .decrement{
@@ -24,4 +30,8 @@
     font-size: 14px;
     color: white;
     cursor: pointer;
+}
+
+.counter span{
+    font-size: 25px;
 }
