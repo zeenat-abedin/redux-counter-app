@@ -20,4 +20,8 @@
 .counter .increment, .counter .decrement{
     border: none;
     height: 30px;
+    margin: 0 30px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
 }
